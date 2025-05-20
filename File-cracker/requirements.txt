@@ -1,0 +1,4 @@
+rarfile
+PyPDF2
+tqdm
+s
