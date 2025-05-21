@@ -1,5 +1,12 @@
+
+
 pip install rarfile PyPDF2 tqdm
 sudo apt install unrar  # si estás en Kali, Debian, Ubuntu
+
+
+~ ❯❯❯ git clone https://github.com/Dracos22/File-Cracker.git
+~ ❯❯❯ cd File-Cracker/
+```
 
 
  python File_ckackerv2.py --help
@@ -23,3 +30,13 @@ options:
   -o, --output OUTPUT   Ruta de extracción si se encuentra la contraseña.
   -v, --verbose         Mostrar contraseñas probadas.
   -H, --hash            Mostrar hash SHA256 del archivo.
+
+```
+# DEMO
+<br>
+<img  align="center" src="preview/zip.gif" alt="">
+
+
+```
+ python3 File_ckackerv2.py -r file.zip -w wordlist.txt  -v   
+```
